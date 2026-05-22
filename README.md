@@ -10,7 +10,7 @@ Este repositório foi criado com o objetivo de:
 
 * 📖 Compreender os conceitos fundamentais de versionamento
 * 🔄 Praticar o fluxo de trabalho com Git
-* 🌿 Trabalhar com **branches**, **merges** e **pull requests**
+* 🌿 Trabalhar com branches, merges e pull requests
 * 🧠 Desenvolver pensamento organizado no controle de mudanças
 * 🤝 Simular colaboração em equipe
 
@@ -27,13 +27,13 @@ Este repositório foi criado com o objetivo de:
 
 ## 🗂️ Estrutura do Repositório
 
-```
+```bash
 📁 versionamento/
 ├── 📄 README.md
-├── 📁 docs/          # Documentações e anotações
-├── 📁 exemplos/      # Exemplos práticos
-├── 📁 atividades/    # Exercícios propostos
-└── 📁 projetos/      # Projetos aplicando versionamento
+├── 📁 docs/
+├── 📁 exemplos/
+├── 📁 atividades/
+└── 📁 projetos/
 ```
 
 ---
@@ -41,9 +41,9 @@ Este repositório foi criado com o objetivo de:
 ## ⚙️ Conceitos Abordados
 
 * 🧾 Controle de versão
-* 📌 Commits (histórico de mudanças)
-* 🌿 Branches (ramificações)
-* 🔀 Merge (junção de branches)
+* 📌 Commits
+* 🌿 Branches
+* 🔀 Merge
 * 🔁 Rebase
 * 📥 Pull Requests
 * 🧩 Resolução de conflitos
@@ -53,11 +53,9 @@ Este repositório foi criado com o objetivo de:
 
 ## 🚀 Como Começar
 
-```
-# Clonar o repositório
+```bash
 git clone https://github.com/prof-andrericardo/versionamento.git
 
-# Acessar a pasta
 cd versionamento
 ```
 
@@ -65,17 +63,10 @@ cd versionamento
 
 ## 🔄 Fluxo de Trabalho Básico
 
-```
-# Verificar status
+```bash
 git status
-
-# Adicionar alterações
 git add .
-
-# Criar um commit
 git commit -m "feat: descrição da alteração"
-
-# Enviar para o repositório remoto
 git push origin main
 ```
 
@@ -83,14 +74,9 @@ git push origin main
 
 ## 🌿 Trabalhando com Branches
 
-```
-# Criar nova branch
+```bash
 git checkout -b minha-feature
-
-# Alternar entre branches
 git checkout main
-
-# Mesclar branch
 git merge minha-feature
 ```
 
@@ -99,17 +85,29 @@ git merge minha-feature
 ## 🧪 Boas Práticas
 
 * ✔️ Faça commits pequenos e descritivos
-* 🏷️ Utilize padrões como **Conventional Commits**
+* 🏷️ Utilize Conventional Commits
 * 🌱 Sempre trabalhe em branches
-* 🔍 Revise antes de subir (push)
-* 📄 Documente suas alterações
-* 🤝 Utilize Pull Requests para colaboração
+* 🔍 Revise antes do push
+* 📄 Documente alterações
+* 🤝 Utilize Pull Requests
+
+---
+
+## 📘 Aprendizados
+
+Durante os estudos deste repositório foi possível aprender:
+
+* 📌 Como criar e organizar commits
+* 🌿 Como trabalhar com branches
+* 🔄 Como enviar projetos para o GitHub
+* 🧠 Como manter um histórico organizado
+* 🤝 Como colaborar em equipe usando Git
 
 ---
 
 ## 🧠 Exemplo de Commits
 
-```
+```bash
 feat: adiciona funcionalidade de login
 fix: corrige erro de validação
 docs: atualiza README
@@ -125,23 +123,17 @@ Capacitar o desenvolvedor a:
 * 📈 Manter histórico organizado de código
 * 🤝 Trabalhar em equipe de forma eficiente
 * 🚀 Aplicar versionamento em projetos reais
-* 🧩 Resolver conflitos de forma estratégica
+* 🧩 Resolver conflitos estrategicamente
 
 ---
 
 ## 📌 Contribuição
 
-Sinta-se à vontade para contribuir! 💡
+Sinta-se à vontade para contribuir 💡
 
-```
-# Fork o projeto
-# Crie uma branch
+```bash
 git checkout -b minha-contribuicao
-
-# Commit suas alterações
 git commit -m "feat: minha contribuição"
-
-# Push
 git push origin minha-contribuicao
 ```
 
@@ -160,4 +152,4 @@ Professor & Desenvolvedor
 
 ---
 
-> 💬 *"Versionar não é só salvar código, é contar a história do seu projeto."* 🚀
+> 💬 "Versionar não é só salvar código, é contar a história do seu projeto." 🚀
